@@ -225,6 +225,40 @@
 
     //console.log(solution);              // log the solution
 
-    for (let i = 0; i <= 6; i += 2) {
-      console.log(i);
-    }
+    // for (let i = 0; i <= 6; i += 2) {
+    //   console.log(i);
+    // }
+
+    ///////////////// FUNCTIONS ///////////////
+
+//     var sound = "";
+
+// function laugh(num) {
+//   for (var i = 0; i < num; i++) {
+//     sound = sound + "ha";
+//   }
+//   sound = sound + "!";
+//   return sound;
+// }
+
+// console.log(laugh(3))
+
+/////////////// BUILD A TRIANGLE //////////////
+// function makeLine(length) {
+//   var line = "";
+//   for (var j = 1; j <= length; j++) {
+//       line += "* ";
+//   }
+//   return line + "\n";
+// }
+
+// function buildTriangle(width) {
+//   var triangle = "";
+//   for (var i = 1; i <= width; i++) {
+//       triangle += (makeLine(i))
+//   }
+//   return triangle;
+// }
+
+// buildTriangle(20);
+// console.log(buildTriangle(20))
