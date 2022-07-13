@@ -262,3 +262,19 @@
 
 // buildTriangle(20);
 // console.log(buildTriangle(20))
+
+
+///////////////// Inline function ///////////////////
+
+// function emotions(myString, myFunc) {
+//   console.log("I am " + myString + ", " + myFunc(2));
+// }
+
+// emotions ("happy", function(num) {
+//   var sound = "";
+//   for(let i = 0; i < num; i++) {
+//       sound = sound + "ha"
+//   }
+//   sound = sound + "!";
+//   return sound;
+// });
