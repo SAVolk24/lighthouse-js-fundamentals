@@ -278,3 +278,41 @@
 //   sound = sound + "!";
 //   return sound;
 // });
+
+
+////////////// TRUE OR FALSE HARRY POTTER TEAMS //////////////////
+
+// var team = ["Oliver Wood", "Angelina Johnson", "Katie Bell", "Alicia Spinnet", "George Weasley", "Fred Weasley", "Harry Potter"];
+
+// function hasEnoughPlayers (arrayInstance) {
+//     if(arrayInstance.length >= 7) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// };
+
+// console.log(hasEnoughPlayers(team));
+
+///////////////// FOREACH LOOP /////////////////////
+
+// let donuts = ["Jelly", "Sprinkles", "Powdered"];
+
+// donuts.forEach(function(donut) {
+//     donut += " hole";
+//     console.log(donut)
+// })
+
+// //////////// FIND WHICH NUMBER IS DIVISIBLE BY 3 AND ADD 100 TO IT ////////////////////
+// var test = [12, 929, 11, 3, 199, 1000, 7, 1, 24, 37, 4,
+//     19, 300, 3775, 299, 36, 209, 148, 169, 299,
+//     6, 109, 20, 58, 139, 59, 3, 1, 139
+// ];
+
+// test.forEach(function(i, ind){
+//     if(i % 3 === 0) {
+//         test[ind] = test[ind] + 100;
+//     }
+// });
+
+// console.log(test);
