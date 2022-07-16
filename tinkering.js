@@ -86,3 +86,43 @@
 
 // console.log(finalPosition(moves));
 
+////////////////////// AGE CALCULATOR //////////////////////////
+// const age = function(name, birthYear, currentYear) {
+//   return name + " is " + (currentYear - birthYear) + " years old.";
+// }
+
+// console.log(age("stephen", 1984, 2022));
+
+
+/////////////// AREA CALCULATOR /////////////////////
+// const rectangle = function (length, width) {
+//   if (length < 0 || width < 0) {
+//     return undefined;
+//   } else {
+//     return length * width;
+//   }
+// };
+
+// const triangleArea = function (base, height) {
+//   if (base < 0 || height < 0) {
+//     return undefined;
+//   } else {
+//     return base * height / 2;
+//   }
+// };
+
+// const circleArea = function (radius) {
+//   if (radius < 0) {
+//     return undefined;
+//   } else {
+//     return radius * radius * Math.PI;
+//   }
+// };
+
+
+/////////// CODE SNIPPET TO SEE HOW MANY HUNDREDS ///////////////////
+// const howManyHundreds = function(hundreds) {
+//   return Math.floor(hundreds / 100);
+//  }
+ 
+//  console.log(howManyHundreds(894));
